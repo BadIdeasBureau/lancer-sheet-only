@@ -1,0 +1,54 @@
+{
+    "id": "lancer-sheet-only",
+    "title": "LANCER Sheet Only CSS Tweaks",
+    "description": "Tweaks the CSS of the Lancer system to work better on mobiile devices with Sheet Only",
+    "version": "#{VERSION}#",
+    "library": "false",
+    "manifestPlusVersion": "1.2.0",
+    "compatibility": {
+      "minimum": 11,
+      "verified": 11
+    },
+    "authors": [
+      {
+        "name": "BadIdeasBureau",
+        "url": "https://github.com/BadIdeasBureau",
+        "discord": "badideasbureau"
+      }
+    ],
+    "relationships": {
+      "systems": [{
+      "id": "lancer",
+      "type": "system",
+      "compatibility": {
+        "minimum": "2.0.0"
+      },
+      "recommends":[{
+        "id": "sheet-only",
+        "type": "module"
+      },
+      {
+        "id": "sheet-only-plus",
+        "type": "module"
+      }]
+      }]
+    },
+    "system": [
+      "lancer"
+    ],
+    "styles": [
+      "styles/lancer-sheet-only.css"
+    ],
+    "url": "#{URL}#",
+    "manifest": "#{MANIFEST}#",
+    "download": "#{DOWNLOAD}#",
+    "license": "LICENSE",
+    "readme": "README.md",
+    "media": [
+      {
+        "type": "icon",
+        "url": "https://avatars2.githubusercontent.com/u/71292812?s=400&u=ccdb4eeb7abf551ca8f314e5a9bfd0479a4d3d41&v=4"
+      }
+    ]
+  }
+  

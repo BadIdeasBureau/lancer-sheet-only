@@ -1,0 +1,39 @@
+.vtt:has( .sheet-only-sheet) #hudzone {
+    right:auto !important;
+    .accdiff-target-row {
+        grid-template-columns: auto auto;
+    }
+    #accdiff {
+        max-height:100vh;
+        overflow: scroll;
+    }
+}
+
+.lancer.actor.mech.sheet-only-sheet {
+    .mech-frame .frame-traits, .mech-frame .core-wrapper {
+        all: unset;
+    }
+
+    .loadout .wraprow.double>* {
+        flex: 1 0 calc(100% - 6px);
+    }
+
+    .stat-grid{
+        grid-template: repeat(12, 5em) / repeat(2, 1fr);
+
+        .size-card, .pilot-summary{
+            grid-row: 10/11;
+            grid-column: unset;
+        }
+
+        .inventory {
+            grid-row: unset;
+            grid-column: unset;
+        }
+
+        .hase {
+            grid-row: 11 / 12;
+            grid-column: 2 / 3;
+        }
+    }
+}
