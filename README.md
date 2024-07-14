@@ -1,4 +1,4 @@
-===== Lancer Sheet Only CSS Tweaks =====
+# Lancer Sheet Only CSS Tweaks
 
 Some tweaks to the CSS of the Lancer system to make it display better on mobile when using the Sheet Only module.  Designed for in-person play.
 
