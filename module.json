@@ -22,12 +22,12 @@
       "type": "system",
       "compatibility": {
         "minimum": "2.0.0"
-      }],
+      }}],
       "requires":[{
         "id": "sheet-only",
         "type": "module"
-      }]
-      "recommends"[{
+      }],
+      "recommends":[{
         "id": "sheet-only-plus",
         "type": "module"
       }]
