@@ -22,15 +22,14 @@
       "type": "system",
       "compatibility": {
         "minimum": "2.0.0"
-      },
-      "recommends":[{
+      }],
+      "requires":[{
         "id": "sheet-only",
         "type": "module"
-      },
-      {
+      }]
+      "recommends"[{
         "id": "sheet-only-plus",
         "type": "module"
-      }]
       }]
     },
     "system": [
